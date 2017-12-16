@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url("../images/saud-background.png");
+      background-size: cover;
+      color: green;
+    }
+    a {
+      color: yellow;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid ;
+      border-radius: 100px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,255,0,0.4);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../images/saud-profile.png">
+    <h1>Saud's Blog</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      
+      <li><a href="#">Future plans</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>About me</h2>
+    <p>My name is Saud Abdulaziz Al Jandal. I am 25 years old, and I am studying at University of Oregon. I am married, I have two kids, a boy and a girl. I used to work as an electrician at SAUDI ELECTRICITY COMPANY for 7 years. Last year, I decided to quit and come to US to study computer science. The reason behind this decision is that I like programming and making mobile apps, and I believe that would make a lot of money if I start my own business.</p>
+    <button>Click for like</button>
+  </article>
+  <article>
+    <h2>Future plans</h2>
+    <p>When I graduate from University of Oregon, I will start my own business in mobile applications, the market for applications is growing, and that would help me work well.</p>
+  
+    <button>Click for like</button>
+  </article>
+  <script>
+    $("button").on("Click for like", function() {
+      alert("appreciate your like!");
+    });
+  </script>
+</body>

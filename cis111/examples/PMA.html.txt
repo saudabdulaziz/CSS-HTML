@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>Peasant Multiplication Algorithm</title>
+<meta charset='utf-8' >
+</head>
+<body>
+<h2>Peasant Multiplication Algorithm</h2>
+<p>Requires only the ability to double, divide by 2, and to add.</p>
+<pre>
+Begin PMA
+    var i = 7, j = 10, prod = 0;
+    
+    while(i not equal 0)
+        if(i is odd)
+            answer = answer + j
+        divide i by 2, and discard remainder
+        double j
+        
+    display i, j, answer
+End PMA.
+</pre>
+</body>
+</html>

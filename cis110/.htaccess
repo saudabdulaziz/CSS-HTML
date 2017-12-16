@@ -1,0 +1,5 @@
+AuthUserFile /home12/saljand2/htpasswd
+AuthGroupFile /dev/null
+AuthName "CIS 110"
+AuthType Basic
+require user 110

@@ -1,0 +1,70 @@
+body {	background-color:#000033;
+		background-image:url(../../images/primehorizontal.png);
+		color:#003300;
+		font-family:Arial, Helvetica, sans-serif;}
+
+
+h2   {	color:#003366;}
+
+
+h3   {	color:#006600;
+		padding-top:10px;}
+
+
+dd   {	font-style:italic;
+		font-size:0.90em;
+		line-height: 200%;}
+
+
+#header {color:#48751A;}
+
+nav a { text-decoration: none;
+display: block;
+text-align: center;
+color: #FFFFCC
+font-weight: bold;
+border: 3px outset #CCCCCC;
+padding: 5px; }
+
+.nav    {font-weight:bold;
+		 font-size:1.2em;
+		 width: 150px;
+		 float: left;}
+
+#main {font-size:0.90em;
+		 margin-left: 180px;
+		 padding-bottom: 20px;
+		 padding-right: 20px;
+		}
+
+.floatLeft {float: left;
+		 padding-bottom: 20px;
+		 padding-right: 20px;
+		}
+
+.clear {clear: left;}
+
+.contact{font-weight:bold;
+		 font-size:0.90em;
+		 font-family: "Times New Roman", serif;
+		margin-left: 180px;}
+
+
+#footer {font-size:.60em;
+		 font-style:italic;
+		margin-left: 180px;}
+
+
+#wrapper {  background-color: #FFFFCC;
+			width: 700px;
+			margin-left: auto;
+			margin-right:auto;
+			padding-bottom: 20px;
+			padding-left: 30px;
+			border: 1px ridge #00332B;
+			border-radius: 15px;
+			-webkit-box-shadow:   inset -3px -3px 3px 3px #00332B;
+			-moz-box-shadow:	  inset -3px -3px 3px 3px #00332B;
+			box-shadow: 		  inset -3px -3px 3px 3px #00332B;}
+
+img {border-style: none;}
